@@ -38,10 +38,15 @@ public class MyCalculator {
 	public int nfactorial(int n){
 		int factorial = 1;
 		
+<<<<<<< HEAD
 		if(n < 0) return -1; //-1 would mean that input is invalid
 		
 		for(int i=1;i<n;i++)
 			factorial *= n; //replaced i with n
+=======
+		for(int i=1;i<n;i++)
+			factorial *= i;
+>>>>>>> a55afef393b4a7d17f20835b7e26efaa1f086a86
 		
 		return factorial;
 	}
@@ -59,7 +64,11 @@ public class MyCalculator {
 			else return middle;
 		}
 		
+<<<<<<< HEAD
 		return -1; //-1 would mean that x is not in the array
+=======
+		return 1;
+>>>>>>> a55afef393b4a7d17f20835b7e26efaa1f086a86
 	}
 	
 }
